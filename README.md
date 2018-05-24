@@ -3,6 +3,9 @@
 ## Table of Contents
 * Important Notes
 * Instructions
+* How to Play
+* Dependencies
+* Languages
 
 ## Important Notes
 
@@ -17,4 +20,16 @@ Greater than 25 moves = 2 stars <br>
 Greater than 35 moves = 1 stars <br>
 Greater than 45 moves = 0 stars <br>
 
+#How to Play
+
+Download or Clone the repository and open index.html in a browser to run. Or just click <a href="https://futurefbi07.github.io/">here</a>
+
 Good Luck!!
+
+#Dependencies
+Boostrap - Font awesome. No other dependencies were used.
+
+#Languages
+HTML<br>
+CSS<br>
+JavaScript
