@@ -15,10 +15,9 @@ The starter code for this project was provided by <a href="https://github.com/ud
 
 Click two separate cards. The cards will flip face side up. If they match, they will turn green. If do not, they will flip back over. Continue flipping two separate cards at a time until you've matched them all. Try to match all cards in as few moves as possible.
 
-Less than 25 moves = 3 stars <br>
-Greater than 25 moves = 2 stars <br>
-Greater than 35 moves = 1 stars <br>
-Greater than 45 moves = 0 stars <br>
+Less than 28 moves = 3 stars <br>
+Greater than 28 moves = 2 stars <br>
+Greater than 35 moves = 1 star <br>
 
 #How to Play
 
