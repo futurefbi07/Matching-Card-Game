@@ -28,7 +28,7 @@ let stars;
 
 let content = document.querySelector(".content");
 
-
+let h;
 
 // Shuffle function from http://stackoverflow.com/a/2450976
 
@@ -144,19 +144,21 @@ function cardMatch() {
 //End game when all cards match
 function endGame() {
   modal.style.display = "block";
-  var h = document.createTextNode(
+  stopTimer();
+//Play Again Message
+  h = document.createTextNode(
     "You made " + (moves - 1) + " moves in " + timer.innerHTML + " and earned a star rating of " + stars + " !"
   );
   content.appendChild(h);
-  stopTimer();
 
-  //Restart game from modal and play again
+//Restart game from modal and play again
   play.onclick = function() {
     modal.style.display = "none";
     startGame();
+//Reset Modal Play Again Message
+  content.removeChild(h);
   };
-
-  //Close modal
+//Close modal
   close.onclick = function() {
     modal.style.display = "none";
   };
@@ -182,4 +184,6 @@ function stopTimer() {
 restart.onclick = function() {
   stopTimer();
   startGame();
+//Reset Modal Play Again Message
+  content.removeChild(h);
 };
